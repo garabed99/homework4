@@ -4,7 +4,7 @@
 const triangleStars = function(height)
 {
     const base = 2 * height - 1;
-    let i = 0
+    let i = 0;
     while(i < height) {
         console.log(' '.repeat(i) + '*'.repeat(base - 2 * i));
         i++;
@@ -17,7 +17,7 @@ const multiToSingle = function(array) {
     let newarray = [];
     let ParentIndex = 0;
     while (ParentIndex < array.length) {
-        const childArray = array[ParentIndex]
+        const childArray = array[ParentIndex];
         ParentIndex++;
         let ChildIndex = 0;
         while (ChildIndex < childArray.length) {
