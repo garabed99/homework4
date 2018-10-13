@@ -10,7 +10,7 @@ const triangleStars = function(height)
         i++;
     }
 };
-console.log(triangleStars(4));
+triangleStars(4);
 
 //3rd task
 const multiToSingle = function(array) {
@@ -48,7 +48,7 @@ console.log(findMinMax([4, 2, 66, -44, 8], true));
         i++;
     }
 };
-console.log(forEach([15, 16, 17]));
+forEach([15, 16, 17]);
 
 //6th task
 const sum = function (array) {
@@ -88,20 +88,4 @@ const checkerboard = function(size) {
     i++;
   }
 };
-console.log(checkerboard(5));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+checkerboard(5);
